@@ -1,19 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
-    
-    
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <div class="container">
+        <div class="row justify-content-center">
+            <h1>First Bootstrap Project</h1>
+            <div class="col-6">Grid1</div>
+            <div class="col-6">Grid2</div>
+            <div class="col-6">Grid3</div>
+            <div class="col-6">Grid4</div>
+        </div>
+        <div class="row justify-content-start">
+            <div class="col bg-success text-center">Div 1</div>
+            <div class="col bg-warning text-center">Div 2</div>
+            <div class="col bg-info text-center">Div 3</div>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Check1">
+                <label class="form-check-label" for="Check1">
+                    Cats
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="Check2">
+                <label class="form-check-label" for="Check2">
+                    Dogs
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Radios" id="Radios1" value="option1"
+                    checked>
+                <label class="form-check-label" for="exampleRadios1">
+                    Cheese Pizza
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="Radios" id="Radios2" value="option2">
+                <label class="form-check-label" for="Radios2">
+                    Vegetable Pizza
+                </label>
+            </div>
+            <div class="form-check disabled">
+                <input class="form-check-input" type="radio" name="Radios" id="Radios3" value="option3">
+                <label class="form-check-label" for="Radios3">
+                    Meat Pizza
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary my-2 py-2">Submit</button>
+        </form>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
